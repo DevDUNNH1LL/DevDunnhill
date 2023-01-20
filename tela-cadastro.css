@@ -1,0 +1,92 @@
+/* Estilo do formulário de cadastro */
+.cadastro-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+}
+
+.cadastro-form h2 {
+    text-transform: uppercase;
+}
+
+/* Estilo dos inputs no formulário de cadastro */
+.cadastro-form input[type="text"],
+.cadastro-form input[type="password"],
+.cadastro-form input[type="email"],
+.cadastro-form input[type="tel"],
+.cadastro-form input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+/* Estilo do botão de submit no formulário de cadastro */
+.cadastro-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.top-bar {
+    /* Define a cor de fundo da barra */
+    background-color: #000000;
+    /* Define a cor do texto */
+    color: #ffffff;
+    /* Define o espaçamento interno da barra */
+    padding: 10px;
+    /* Define o alinhamento do texto */
+    text-align: center;
+    /* Define o tamanho da fonte */
+    font-size: 1.5em;
+    /* Define o estilo da fonte */
+    font-weight: bold;
+    /* Define se o texto será maiúsculo */
+    text-transform: uppercase;
+    /* Define a distância entre as letras do texto */
+    letter-spacing: 1px;
+    /* Define se a barra ocupará toda a largura da tela */
+    width: 100%;
+    /* Define se o elemento ocupará toda a altura da tela */
+    height: 80px;
+    /* Define se o elemento ficará fixo no topo da tela */
+    position: fixed;
+    /* Define o topo da barra */
+    top: 0;
+    /* Define a z-index para garantir que a barra fique sempre acima de outros elementos */
+    z-index: 9999;
+}
+
+.navbar-top-bar a {
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+}
