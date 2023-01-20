@@ -2,11 +2,33 @@
 <html lang="pt-br">
 
 <head>
+    <script src="animate.js"></script>
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple</title>
+    <style>
+        /* Adiciona uma fonte legível e tamanhos de fonte apropriados para dispositivos móveis */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        /* Utiliza flexbox para organizar o conteúdo de forma responsiva */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Utiliza técnicas de design responsivo, ocultando elementos menos importantes em dispositivos móveis */
+        @media (max-width: 600px) {
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -38,10 +60,13 @@
         <br>
         <button id="cadastro" class="cadastro" type="button">Cadastre-se</button>
     </form>
-    <div class="desenvolvimento">Site em Desenvolvimento</div>
+
+    <div class="menssagem-dev" id="animatedElement">Site em desenvolvimento<br>By: Dunnhill</div>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>
+<!-- Formulário de cadastro -->
+<form class="cadastro-form">
+    <link rel="stylesheet" href="
